@@ -3,7 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2075" />
+        <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/drawable/android_guideline.xml" value="0.367" />
+        <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/drawable/android_lar.xml" value="0.2075" />
+        <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/drawable/android_login.xml" value="0.2075" />
+        <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/drawable/android_play.xml" value="0.237" />
+        <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2075" />
+        <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout/activity_guideline.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout/activity_login.xml" value="0.19384057971014493" />
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout/activity_main.xml" value="0.365625" />
+        <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout/activity_play.xml" value="0.36614583333333334" />
       </map>
     </option>
   </component>
