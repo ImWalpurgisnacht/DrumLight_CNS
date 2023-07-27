@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B2B2B"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageButton
+        android:id="@+id/how"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src = "@drawable/how"
+        android:layout_marginStart="742dp"
+        android:layout_marginTop = "20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/again"
+        android:layout_marginStart="337dp"
+        android:layout_marginTop = "260dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/tomain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/tomain"
+        android:layout_marginStart="337dp"
+        android:layout_marginTop = "300dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/clear"
+        android:layout_width="561dp"
+        android:layout_height="238dp"
+        android:src="@drawable/clear"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop = "2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="402dp"
+        android:layout_height="wrap_contents"
+        android:gravity="center"
+        android:text = "Youth - Troy Sivan 을 끝까지 연습하셨습니다."
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="201dp"
+        android:layout_marginTop = "212dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
