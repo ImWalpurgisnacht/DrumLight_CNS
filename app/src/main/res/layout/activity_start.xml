@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#2B2B2B"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/drumlight"
+        android:layout_width="404dp"
+        android:layout_height="210dp"
+        android:src="@drawable/drumlight">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/kakao"
+        android:layout_width="183dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/drumlight"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="110dp"
+        android:src="@drawable/kakao_login"></ImageView>
+
+</RelativeLayout>
