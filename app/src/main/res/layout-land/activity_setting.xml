@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B2B2B"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageButton
+        android:id="@+id/setting"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src = "@drawable/settings"
+        android:layout_marginStart="692dp"
+        android:layout_marginTop = "20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/how"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src = "@drawable/how"
+        android:layout_marginStart="742dp"
+        android:layout_marginTop = "20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop = "22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#FFFFFF"/>
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop = "190dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#FFFFFF"/>
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop = "200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#FFFFFF"/>
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop = "370dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/random"
+        android:layout_width="367dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop = "26dp"
+        android:gravity="top"
+        android:text="랜덤 추천 연습 곡"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/recent"
+        android:layout_width="367dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop = "210dp"
+        android:gravity="top"
+        android:text="최근 연습 목록"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/level_text"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginStart="453dp"
+        android:layout_marginTop = "200dp"
+        android:gravity="top"
+        android:text="현재 레벨"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/can_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="547dp"
+        android:layout_marginTop = "200dp"
+        android:gravity="center"
+        android:text="재생 가능한\n악보 개수"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/next_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="662dp"
+        android:layout_marginTop = "200dp"
+        android:gravity="center"
+        android:text="다음 레벨까지\n남은 연습"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="478dp"
+        android:layout_marginTop = "140dp"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="577dp"
+        android:layout_marginTop = "140dp"
+        android:gravity="center"
+        android:text="10"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/num3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="708dp"
+        android:layout_marginTop = "140dp"
+        android:gravity="center"
+        android:text="7"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageButton
+        android:id="@+id/song6"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src = "@drawable/song_cover6"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop = "70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints"
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:id="@+id/song2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src = "@drawable/song_cover2"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop = "70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints"
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:id="@+id/song3"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src = "@drawable/song_cover3"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop = "70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/song4"
+        android:layout_width="115dp"
+        android:layout_height="110dp"
+        android:src = "@drawable/song_cover4"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop = "254dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/song5"
+        android:layout_width="115dp"
+        android:layout_height="110dp"
+        android:src = "@drawable/song_cover5"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop = "254dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/song1"
+        android:layout_width="115dp"
+        android:layout_height="110dp"
+        android:src = "@drawable/song_cover1"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop = "254dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        android:id="@+id/level"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="690dp"
+        android:layout_marginTop = "295dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/level"
+        android:text = "5"
+        android:textSize = "55dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

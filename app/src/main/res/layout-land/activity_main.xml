@@ -129,11 +129,12 @@
         android:layout_height="182dp"
         android:src = "@drawable/song_cover2"
         android:layout_marginStart="596dp"
-        android:layout_marginTop = "255dp"
+        android:layout_marginTop = "300dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:background="@android:color/transparent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:scaleType="fitCenter"/>
 
     <ImageButton
         android:id="@+id/song3"
