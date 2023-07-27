@@ -124,15 +124,102 @@
         tools:ignore="MissingConstraints" />
 
     <ImageButton
-        android:id="@+id/level"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src = "@drawable/level"
-        android:layout_marginStart="690dp"
-        android:layout_marginTop = "295dp"
+        android:id="@+id/song2"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:src = "@drawable/song_cover2"
+        android:layout_marginStart="596dp"
+        android:layout_marginTop = "255dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/song3"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:src = "@drawable/song_cover3"
+        android:layout_marginStart="550dp"
+        android:layout_marginTop = "229dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/song6"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:src = "@drawable/song_cover6"
+        android:layout_marginStart="596dp"
+        android:layout_marginTop = "22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/song5"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:src = "@drawable/song_cover5"
+        android:layout_marginStart="550dp"
+        android:layout_marginTop = "52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/song1"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:src = "@drawable/song_cover1"
+        android:layout_marginStart="505dp"
+        android:layout_marginTop = "100dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:background="#2B2B2B"
         tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/level"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="690dp"
+        android:layout_marginTop = "295dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/level"
+        android:text = "5"
+        android:textSize = "55dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/setting"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src = "@drawable/settings"
+        android:layout_marginStart="692dp"
+        android:layout_marginTop = "20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/how"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src = "@drawable/how"
+        android:layout_marginStart="742dp"
+        android:layout_marginTop = "20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
