@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="340dp"
+    tools:ignore="MissingDefaultResource"
+    android:background="@drawable/gradient"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/text0"
+            android:text="푸쉬알림\n\n\n음량조절\n\n로그인 정보"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop = "10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/text1"
+            android:text="- 과제알림\n- 업데이트 알림"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-220dp"
+            android:layout_marginTop = "40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/onoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/on"
+            app:layout_constraintRight_toLeftOf="@+id/text1"
+            />
+
+        <ImageButton
+            android:id="@+id/soundbar"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/barthree"
+            android:layout_marginStart="-230dp"
+            android:layout_marginTop = "140dp"
+            />
+
+        <ImageButton
+            android:id="@+id/kakao_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/icon_kakao"
+            android:layout_marginStart="-210dp"
+            android:layout_marginTop = "210dp"
+            />
+
+        <ImageButton
+            android:id="@+id/naver_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/icon_naver"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop = "210dp"
+            />
+
+        <ImageButton
+            android:id="@+id/log_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/loggout"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop = "210dp"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/inquiry"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/inquiry"
+        android:layout_marginStart="-235dp"
+        android:layout_marginTop = "260dp"
+        />
+
+    <ImageView
+        android:id="@+id/info"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/de_info"
+        android:layout_marginStart="-221dp"
+        android:layout_marginTop = "302dp"
+        />
+
+</LinearLayout>

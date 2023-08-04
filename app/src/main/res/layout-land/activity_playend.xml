@@ -58,7 +58,7 @@
     <TextView
         android:id="@+id/text"
         android:layout_width="402dp"
-        android:layout_height="wrap_contents"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:text = "Youth - Troy Sivan 을 끝까지 연습하셨습니다."
         android:textSize="18dp"
