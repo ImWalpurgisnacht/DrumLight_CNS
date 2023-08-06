@@ -169,7 +169,7 @@
         />
 
     <Button
-        android:id="@+id/polygon_1"
+        android:id="@+id/next_btn"
         android:layout_width="46dp"
         android:layout_height="40dp"
         android:layout_alignParentLeft="true"
@@ -179,14 +179,5 @@
         android:background="@drawable/befor_btn"
         />
 
-    <Button
-        android:id="@+id/polygon_3"
-        android:layout_width="46dp"
-        android:layout_height="40dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="254dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="285dp"
-        android:background="@drawable/next_btn"
-        />
+
 </RelativeLayout>
