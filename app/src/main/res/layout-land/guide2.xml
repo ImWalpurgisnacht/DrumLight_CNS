@@ -165,6 +165,7 @@
         android:layout_marginTop="121dp"
         android:text="3. 플레이 하면으로 넘어\n    갑니다."
         android:textSize="19sp"
+        android:textStyle="bold"
         android:gravity="top"
         />
 

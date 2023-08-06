@@ -143,6 +143,7 @@
         android:layout_marginTop="121dp"
         android:text="1. 이미지를 스크롤하여 원\n    하는 곡을 선택해 보세요. \n2. 선택한 곡의 정보가 보입\n    니다. 속도, 난이도, 개인\n    연습량을 확인 할 수 있습\n    니다."
         android:textSize="19sp"
+        android:textStyle="bold"
         android:gravity="top"
         />
     <View

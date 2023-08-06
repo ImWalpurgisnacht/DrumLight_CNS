@@ -241,6 +241,7 @@
         android:layout_marginTop="121dp"
         android:text="5. 연주가 멈추고 연주 맨 앞\n    구간으로 돌아간다.  \n\n6. '구간반복'버튼을 눌러서 \n    '구간반복 연습 마디 설정'\n    으로 이동합니다."
         android:textSize="19sp"
+        android:textStyle="bold"
         android:gravity="top"
         />
 

@@ -166,6 +166,7 @@
         android:layout_marginTop="121dp"
         android:text="1. '도움말'버튼을 통해 이 화\n    면으로 이동합니다. \n2. '다시하기'버튼을 통해 다\n    시 한번 같은 곡을 연주 할 \n    수 있습니다."
         android:textSize="19sp"
+        android:textStyle="bold"
         android:gravity="top"
         />
 

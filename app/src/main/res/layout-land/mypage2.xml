@@ -188,6 +188,7 @@
         android:layout_marginTop="121dp"
         android:text="4. 레벨이 오를 수록 재생가능\n    한 곡이 많아집니다. \n5. 다음레벨까지 남은 연습 횟 \n    수를 나타냅니다."
         android:textSize="19sp"
+        android:textStyle="bold"
         android:gravity="top"
         />
 

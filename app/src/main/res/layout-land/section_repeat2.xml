@@ -166,6 +166,7 @@
         android:layout_marginTop="121dp"
         android:text="2. 설정된 구간을 더블클릭 \n    시, 반복 구간이 해제됩니\n    다.  \n3. '확인' 버튼을 클릭하여\n    플레이 화면으로 돌아갑니\n    다."
         android:textSize="19sp"
+        android:textStyle="bold"
         android:gravity="top"
         />
     <Button

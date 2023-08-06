@@ -206,6 +206,7 @@
         android:layout_marginTop="121dp"
         android:text="5. 톱니바퀴를 눌러 설정창으\n    로 이동합니다.\n6. 레벨이 적힌 보라색 부분을 \n    마이페이지로 이동합니다."
         android:textSize="19sp"
+        android:textStyle="bold"
         android:gravity="top"
         />
 

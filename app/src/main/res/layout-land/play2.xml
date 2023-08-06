@@ -241,6 +241,7 @@
         android:layout_marginTop="121dp"
         android:text="3. 노드가 만들어지는 북(심\n    벌)에 박자에 맞춰 스틱으\n    로 타격합니다.  \n \n4. '재생'버튼을 누르면 곡이 \n    시작한다."
         android:textSize="19sp"
+        android:textStyle="bold"
         android:gravity="top"
         />
 
