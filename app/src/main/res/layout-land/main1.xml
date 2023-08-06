@@ -56,9 +56,9 @@
         android:layout_width="14dp"
         android:layout_height="12dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="81dp"
+        android:layout_marginLeft="135dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="292dp"
+        android:layout_marginTop="294dp"
         android:background="@drawable/point1"
         />
 
@@ -67,9 +67,9 @@
         android:layout_width="14dp"
         android:layout_height="12dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="112dp"
+        android:layout_marginLeft="165dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="292dp"
+        android:layout_marginTop="294dp"
         android:background="@drawable/point2"
         />
 
@@ -78,9 +78,9 @@
         android:layout_width="14dp"
         android:layout_height="12dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="142dp"
+        android:layout_marginLeft="195dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="292dp"
+        android:layout_marginTop="294dp"
         android:background="@drawable/point2"
         />
 
@@ -205,5 +205,27 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="270dp"
         android:background="@drawable/vector6"
+        />
+
+    <Button
+        android:id="@+id/polygon_1"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="285dp"
+        android:background="@drawable/befor_btn"
+        />
+
+    <Button
+        android:id="@+id/polygon_3"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="254dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="285dp"
+        android:background="@drawable/next_btn"
         />
 </RelativeLayout>

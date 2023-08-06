@@ -26,7 +26,7 @@
         android:layout_marginLeft="55dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="48dp"
-        android:background="#E3A9EC"
+        android:background="#D977E9"
         />
 
     <View
@@ -91,22 +91,11 @@
         />
 
     <View
-        android:id="@+id/image_1"
-        android:layout_width="444.44dp"
-        android:layout_height="200dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="301dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="119dp"
-        android:background="@drawable/guide"
-        />
-
-    <View
         android:id="@+id/ellipse_3"
         android:layout_width="14dp"
         android:layout_height="12dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="150dp"
+        android:layout_marginLeft="195dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="294dp"
         android:background="@drawable/point1"
@@ -117,31 +106,31 @@
         android:layout_width="14dp"
         android:layout_height="12dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="180dp"
+        android:layout_marginLeft="165dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="294dp"
         android:background="@drawable/point2"
         />
     <View
-        android:id="@+id/Vector1"
-        android:layout_width="19dp"
-        android:layout_height="19dp"
+        android:id="@+id/ellipse_2"
+        android:layout_width="14dp"
+        android:layout_height="12dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="695dp"
+        android:layout_marginLeft="135dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="120dp"
-        android:background="@drawable/vector1"
+        android:layout_marginTop="294dp"
+        android:background="@drawable/point2"
         />
 
     <View
-        android:id="@+id/Vector2"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
+        android:id="@+id/image_1"
+        android:layout_width="444.44dp"
+        android:layout_height="200dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="380dp"
+        android:layout_marginLeft="301dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="160dp"
-        android:background="@drawable/vector2"
+        android:layout_marginTop="119dp"
+        android:background="@drawable/main"
         />
 
     <View
@@ -149,10 +138,62 @@
         android:layout_width="19dp"
         android:layout_height="19dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="693dp"
+        android:layout_marginLeft="308dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="272dp"
+        android:layout_marginTop="145dp"
         android:background="@drawable/vector3"
+        />
+
+    <View
+        android:id="@+id/Vector1"
+        android:layout_width="20dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="580dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/vector1"
+        />
+    <View
+        android:id="@+id/Vector2"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="305dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/vector2"
+        />
+    <View
+        android:id="@+id/Vector4"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="668dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/vector4"
+        />
+    <View
+        android:id="@+id/Vector5"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="698dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/vector5"
+        />
+
+    <View
+        android:id="@+id/Vector6"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="698dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/vector6"
         />
 
     <TextView
@@ -163,10 +204,11 @@
         android:layout_marginLeft="58dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="121dp"
-        android:text="1. '도움말' 버튼을 통해 이 화\n    화면으로 이동 할  수 있습\n    니다.  \n2. 화면 속 도형을 움직이거\n    나 드럼을 움직여 도형과\n    드럼이 일치하도록 한다."
+        android:text="5. 톱니바퀴를 눌러 설정창으\n    로 이동합니다.\n6. 레벨이 적힌 보라색 부분을 \n    마이페이지로 이동합니다."
         android:textSize="19sp"
         android:gravity="top"
         />
+
     <Button
         android:id="@+id/polygon_1"
         android:layout_width="46dp"
