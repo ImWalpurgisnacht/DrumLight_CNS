@@ -50,37 +50,20 @@
 
         <ImageButton
             android:id="@+id/soundbar"
-            android:layout_width="210dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src = "@drawable/barthree"
-            android:layout_marginStart="-230dp"
+            android:src = "@drawable/bartwo"
+            android:layout_marginStart="-240dp"
             android:layout_marginTop = "140dp"
             />
 
-        <ImageButton
-            android:id="@+id/kakao_icon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src = "@drawable/icon_kakao"
-            android:layout_marginStart="-210dp"
-            android:layout_marginTop = "210dp"
-            />
-
-        <ImageButton
-            android:id="@+id/naver_icon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src = "@drawable/icon_naver"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop = "210dp"
-            />
 
         <ImageButton
             android:id="@+id/log_out"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src = "@drawable/loggout"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="-220dp"
             android:layout_marginTop = "210dp"
             />
 

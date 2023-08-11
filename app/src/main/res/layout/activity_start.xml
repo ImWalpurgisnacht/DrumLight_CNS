@@ -15,13 +15,15 @@
         android:src="@drawable/drumlight">
     </ImageView>
 
-    <ImageView
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/kakao"
         android:layout_width="183dp"
         android:layout_height="45dp"
         android:layout_below="@+id/drumlight"
-        android:layout_marginTop="5dp"
         android:layout_marginLeft="110dp"
-        android:src="@drawable/kakao_login"></ImageView>
+        android:layout_marginTop="5dp"
+        android:text="이메일로 로그인"
+        android:textStyle="bold"
+        android:background="#FFFFFF"></androidx.appcompat.widget.AppCompatButton>
 
 </RelativeLayout>
