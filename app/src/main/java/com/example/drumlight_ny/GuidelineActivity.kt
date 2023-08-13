@@ -3,34 +3,22 @@ package com.example.drumlight_ny
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import android.view.LayoutInflater
 import android.view.View
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import com.example.drumlight_ny.databinding.ActivityMainBinding
+import com.example.drumlight_ny.databinding.ActivityGuidelineBinding
 
-class MainActivity : AppCompatActivity(), CustomDialog.CustomDialogInterface {
+class GuidelineActivity : AppCompatActivity() {
 
-    lateinit var binding: ActivityMainBinding
+    var binding: ActivityGuidelineBinding ?= null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        binding = ActivityGuidelineBinding.inflate(layoutInflater)
+        setContentView(binding?.root)
 
-        binding.setting?.setOnClickListener{ //설정 클릭 이벤트
-            val customDialog = CustomDialog(this,this)
-            customDialog.show()
-        }
-
-        binding.level?.setOnClickListener{
-            val intent = Intent(applicationContext, SettingActivity::class.java)
-            startActivity(intent)
-        }
-
-        binding.song1?.setOnClickListener{
-            val intent = Intent(applicationContext, GuidelineActivity::class.java)
+        binding?.next?.setOnClickListener{
+            val intent = Intent(applicationContext, PlayActivity::class.java)
             startActivity(intent)
         }
 
@@ -51,4 +39,3 @@ class MainActivity : AppCompatActivity(), CustomDialog.CustomDialogInterface {
 
     }
 }
-
