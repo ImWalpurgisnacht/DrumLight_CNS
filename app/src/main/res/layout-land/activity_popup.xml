@@ -2,89 +2,164 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="250dp"
+    android:layout_width="300dp"
     android:layout_height="340dp"
     tools:ignore="MissingDefaultResource"
     android:background="@drawable/gradient"
-    android:orientation="horizontal">
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text0"
+        android:text="푸쉬알림"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <ImageButton
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="-60dp"
+        android:minWidth="48dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/x"
+        app:layout_constraintEnd_toStartOf="@+id/text0"
+        app:layout_constraintBottom_toTopOf="parent"/>
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:id="@+id/linear0"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/text0"
         android:orientation="horizontal"
         >
         <TextView
-            android:id="@+id/text0"
-            android:text="푸쉬알림\n\n\n음량조절\n\n로그인 정보"
-            android:textSize="25dp"
-            android:textColor="#FFFFFF"
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop = "10dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            />
-
-        <TextView
             android:id="@+id/text1"
-            android:text="- 과제알림\n- 업데이트 알림"
-            android:textSize="20dp"
+            android:text="- 과제알림"
+            android:textSize="15dp"
             android:textColor="#FFFFFF"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="-220dp"
-            android:layout_marginTop = "40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop ="30dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/text0"
             />
 
         <ImageView
-            android:id="@+id/onoff"
+            android:id="@+id/onoff0"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="20dp"
             android:src="@drawable/on"
-            app:layout_constraintRight_toLeftOf="@+id/text1"
-            />
-
-        <ImageButton
-            android:id="@+id/soundbar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src = "@drawable/bartwo"
-            android:layout_marginStart="-240dp"
-            android:layout_marginTop = "140dp"
-            />
-
-
-        <ImageButton
-            android:id="@+id/log_out"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src = "@drawable/loggout"
-            android:layout_marginStart="-220dp"
-            android:layout_marginTop = "210dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop ="30dp"
+            app:layout_constraintStart_toStartOf="parent"
             />
 
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/inquiry"
-        android:layout_width="220dp"
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src = "@drawable/inquiry"
-        android:layout_marginStart="-235dp"
-        android:layout_marginTop = "260dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/linear0"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/text2"
+            android:text="- 업데이트 알림"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop ="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/linear0"
+            />
+
+        <ImageView
+            android:id="@+id/onoff1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:src="@drawable/on"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop ="0dp"
+            app:layout_constraintStart_toEndOf="@id/text2"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text3"
+        android:text="음향 조절"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <ImageButton
+        android:id="@+id/soundbar"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:src = "@drawable/bartwo"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop ="5dp"
+        />
+
+    <TextView
+        android:id="@+id/text4"
+        android:text="로그인 정보"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <ImageButton
+        android:id="@+id/log_out"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:src = "@drawable/loggout"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop = "0dp"
+        android:background="@android:color/transparent"
         />
 
     <ImageView
-        android:id="@+id/info"
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
-        android:src = "@drawable/de_info"
-        android:layout_marginStart="-221dp"
-        android:layout_marginTop = "302dp"
+        android:id="@+id/inquiry"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:src = "@drawable/inquiry"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop = "20dp"
         />
+
+
 
 </LinearLayout>

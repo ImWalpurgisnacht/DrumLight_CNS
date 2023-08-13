@@ -2,13 +2,26 @@ package com.example.drumlight_ny
 
 import android.os.Bundle
 import android.util.Log
+import android.view.LayoutInflater
 import android.view.View
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import com.example.drumlight_ny.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), CustomDialog.CustomDialogInterface {
+
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        binding.setting?.setOnClickListener{
+            val customDialog = CustomDialog(this,this)
+            customDialog.show()
+        }
 
         val uiOptions = window.decorView.systemUiVisibility
         var newUiOptions: Int = uiOptions
@@ -24,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         newUiOptions = newUiOptions xor View.SYSTEM_UI_FLAG_FULLSCREEN
         newUiOptions = newUiOptions xor View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
         window.decorView.systemUiVisibility = newUiOptions
-    }
 
+    }
 }
+
