@@ -1,16 +1,32 @@
 package com.example.drumlight_ny
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.example.drumlight_ny.databinding.ActivityMainBinding
+import com.example.drumlight_ny.databinding.ActivitySettingBinding
 
-class SettingActivity : AppCompatActivity() {
+class SettingActivity : AppCompatActivity(), CustomDialog.CustomDialogInterface {
+
+    lateinit var binding:ActivitySettingBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_setting)
 
+        binding = ActivitySettingBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        binding.setting?.setOnClickListener{ //설정 클릭 이벤트
+            val customDialog = CustomDialog(this,this)
+            customDialog.show()
+        }
+
+        binding.level?.setOnClickListener{
+            val intent = Intent(applicationContext, MainActivity::class.java)
+            startActivity(intent)
+        }
 
         val uiOptions = window.decorView.systemUiVisibility
         var newUiOptions: Int = uiOptions

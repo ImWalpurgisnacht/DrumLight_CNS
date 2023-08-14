@@ -57,11 +57,13 @@
             app:layout_constraintBottom_toTopOf="@id/text0"
             />
 
-        <ImageView
+        <ToggleButton
             android:id="@+id/onoff0"
             android:layout_width="wrap_content"
             android:layout_height="20dp"
-            android:src="@drawable/on"
+            android:background="@drawable/alarm_btn"
+            android:textOn=""
+            android:textOff=""
             android:layout_marginStart="90dp"
             android:layout_marginTop ="30dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -90,11 +92,13 @@
             app:layout_constraintBottom_toTopOf="@id/linear0"
             />
 
-        <ImageView
+        <ToggleButton
             android:id="@+id/onoff1"
             android:layout_width="wrap_content"
             android:layout_height="20dp"
-            android:src="@drawable/on"
+            android:background="@drawable/alarm_btn"
+            android:textOn=""
+            android:textOff=""
             android:layout_marginStart="58dp"
             android:layout_marginTop ="0dp"
             app:layout_constraintStart_toEndOf="@id/text2"
