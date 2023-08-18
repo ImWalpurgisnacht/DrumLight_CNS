@@ -1,16 +1,27 @@
 package com.example.drumlight_ny
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.example.drumlight_ny.databinding.ActivityMainBinding
+import com.example.drumlight_ny.databinding.ActivityPlayBinding
 
 class PlayActivity : AppCompatActivity() {
 
+    lateinit var binding : ActivityPlayBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_play)
 
+        binding = ActivityPlayBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        binding.next.setOnClickListener{
+            val intent = Intent(applicationContext, MainActivity::class.java)
+            startActivity(intent)
+        }
 
         val uiOptions = window.decorView.systemUiVisibility
         var newUiOptions: Int = uiOptions

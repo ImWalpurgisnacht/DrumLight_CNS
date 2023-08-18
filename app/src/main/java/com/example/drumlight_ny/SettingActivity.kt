@@ -43,4 +43,8 @@ class SettingActivity : AppCompatActivity(), CustomDialog.CustomDialogInterface 
         newUiOptions = newUiOptions xor View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
         window.decorView.systemUiVisibility = newUiOptions
     }
+    override fun onLogoutButtonClicked() {
+        val intent = Intent(applicationContext, StartActivity::class.java)
+        startActivity(intent)
+    }
 }

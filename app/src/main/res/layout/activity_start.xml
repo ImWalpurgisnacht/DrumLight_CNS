@@ -16,14 +16,14 @@
     </ImageView>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/kakao"
+        android:id="@+id/login"
         android:layout_width="183dp"
         android:layout_height="45dp"
         android:layout_below="@+id/drumlight"
         android:layout_marginLeft="110dp"
         android:layout_marginTop="5dp"
+        android:background="#FFFFFF"
         android:text="이메일로 로그인"
-        android:textStyle="bold"
-        android:background="#FFFFFF"></androidx.appcompat.widget.AppCompatButton>
+        android:textStyle="bold"></androidx.appcompat.widget.AppCompatButton>
 
 </RelativeLayout>
