@@ -31,6 +31,8 @@
             android:screenOrientation="landscape"/>
         <activity android:name=".PlayActivity"
             android:screenOrientation="landscape"/>
+        <activity android:name=".RepeatActivity"
+            android:screenOrientation="landscape"/>
     </application>
 
 </manifest>

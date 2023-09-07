@@ -5,26 +5,20 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.example.drumlight_ny.databinding.ActivityMainBinding
-import com.example.drumlight_ny.databinding.ActivityPlayBinding
+import com.example.drumlight_ny.databinding.ActivityRepeatBinding
 
-class PlayActivity : AppCompatActivity() {
+class RepeatActivity: AppCompatActivity()  {
 
-    lateinit var binding : ActivityPlayBinding
+    lateinit var binding : ActivityRepeatBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityPlayBinding.inflate(layoutInflater)
+        binding = ActivityRepeatBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.next.setOnClickListener{
-            val intent = Intent(applicationContext, MainActivity::class.java)
-            startActivity(intent)
-        }
-
-        binding.partbutton.setOnClickListener{
-            val intent = Intent(applicationContext, RepeatActivity::class.java)
+            val intent = Intent(applicationContext, PlayActivity::class.java)
             startActivity(intent)
         }
 

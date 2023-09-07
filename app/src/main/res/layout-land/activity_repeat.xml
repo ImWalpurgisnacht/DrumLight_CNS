@@ -33,18 +33,23 @@
         android:background="@android:color/transparent"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/music_all"
+    <ScrollView
+        android:id="@+id/scroll"
         android:layout_width="wrap_content"
-        android:layout_height="800dp"
-        android:scaleType="center"
-        android:src="@drawable/iu_yourmeaning"
-        android:layout_marginStart="102dp"
-        android:layout_marginTop = "127dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        />
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:src="@drawable/iu_yourmeaning"
+            android:layout_marginStart="102dp"
+            android:layout_marginTop = "127dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+    </ScrollView>
 
     <Button
         android:id="@+id/next"
