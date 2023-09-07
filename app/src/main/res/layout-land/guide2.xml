@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/android_lar"
-    android:layout_width="800dp"
-    android:layout_height="360dp"
-    android:clipToOutline="true"
-    android:background="#2B2B2B">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B2B2B"
+    tools:ignore="MissingDefaultResource">
 
     <View
         android:id="@+id/rectangle_1"
@@ -16,7 +16,10 @@
         android:layout_marginLeft="40dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="35dp"
-        android:background="#D9D9D9" />
+        android:background="#D9D9D9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <View
         android:id="@+id/rectangle_2"
@@ -27,6 +30,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="48dp"
         android:background="#E3A9EC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         />
 
     <View
@@ -38,6 +43,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="48dp"
         android:background="#E3A9EC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         />
 
     <View
@@ -49,6 +56,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="48dp"
         android:background="#E3A9EC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         />
 
     <TextView
@@ -62,6 +71,8 @@
         android:text="플레이 화면"
         android:textSize="24sp"
         android:gravity="center_horizontal|top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         />
 
     <TextView
@@ -75,6 +86,8 @@
         android:text="마이페이지"
         android:textSize="24sp"
         android:gravity="center_horizontal|top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         />
 
     <TextView
@@ -88,6 +101,8 @@
         android:text="메인화면"
         android:textSize="26sp"
         android:gravity="center_horizontal|top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         />
 
     <View
@@ -99,6 +114,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="119dp"
         android:background="@drawable/guide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         />
 
     <View
@@ -110,6 +127,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="296dp"
         android:background="@drawable/point1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         />
 
     <View
@@ -120,7 +139,10 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="145dp"
         android:layout_marginTop="296dp"
-        android:background="@drawable/point2" />
+        android:background="@drawable/point2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
     <View
         android:id="@+id/Vector1"
         android:layout_width="19dp"
@@ -130,6 +152,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="120dp"
         android:background="@drawable/vector1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         />
 
     <View
@@ -141,6 +165,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="160dp"
         android:background="@drawable/vector2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         />
 
     <View
@@ -152,6 +178,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="272dp"
         android:background="@drawable/vector3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         />
 
     <TextView
@@ -165,9 +193,12 @@
         android:text="3. 플레이 하면으로 넘어\n    갑니다."
         android:textSize="19sp"
         android:gravity="top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         />
 
     <Button
+        android:id="@+id/b_btn1"
         android:layout_width="25dp"
         android:layout_height="20dp"
         android:layout_alignParentLeft="true"
@@ -175,7 +206,9 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="290dp"
         android:background="@drawable/befor_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         />
 
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
