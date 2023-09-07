@@ -1,6 +1,7 @@
 package com.example.drumlight_ny
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -45,6 +46,11 @@ class SettingActivity : AppCompatActivity(), CustomDialog.CustomDialogInterface 
     }
     override fun onLogoutButtonClicked() {
         val intent = Intent(applicationContext, StartActivity::class.java)
+        startActivity(intent)
+    }
+
+    override fun onInternetButtonClicked() {
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzCpZkvMjjKbxjjMpGgPJntwhDmTxpWqMQrhjmZjqLvbtkkBbRpVwwBjVfTSgMqLRGhxdWR"))
         startActivity(intent)
     }
 }

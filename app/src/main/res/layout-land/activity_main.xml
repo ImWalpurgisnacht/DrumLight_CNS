@@ -17,7 +17,6 @@
         android:layout_marginBottom="35dp"
         android:background="#FFFFFF"
         android:entries="@array/main"
-        app:layout_constraintBottom_toTopOf="@+id/view"
         app:layout_constraintEnd_toStartOf="@+id/searchView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -31,191 +30,8 @@
         android:layout_marginEnd="170dp"
         android:layout_marginBottom="35dp"
         android:background="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/view"
-        app:layout_constraintEnd_toStartOf="@+id/song5"
         app:layout_constraintStart_toEndOf="@+id/some_id"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/youth_troye"
-        android:layout_width="347dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="38dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginBottom="5dp"
-        android:gravity="top"
-        android:text="YOUTH - Troye Sivan"
-        android:textColor="#FFFFFF"
-        android:textSize="32dp"
-        app:layout_constraintBottom_toTopOf="@+id/view2"
-        app:layout_constraintEnd_toStartOf="@+id/easy"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchView" />
-
-    <View
-        android:id="@+id/view"
-        android:layout_width="347dp"
-        android:layout_height="2dp"
-        android:layout_marginStart="46dp"
-        android:layout_marginTop="35dp"
-        android:layout_marginEnd="392dp"
-        android:background="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchView" />
-
-    <View
-        android:id="@+id/view2"
-        android:layout_width="347dp"
-        android:layout_height="2dp"
-        android:layout_marginStart="46dp"
-        android:layout_marginTop="5dp"
-        android:background="#FFFFFF"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/youth_troye" />
-
-    <TextView
-        android:id="@+id/bpm"
-        android:layout_width="347dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginBottom="30dp"
-        android:gravity="top"
-        android:text="BPM: 120 bpm"
-        android:textColor="#FFFFFF"
-        android:textSize="32dp"
-        app:layout_constraintBottom_toTopOf="@+id/practice"
-        app:layout_constraintEnd_toStartOf="@+id/normal"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view2"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/practice"
-        android:layout_width="347dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="25dp"
-        android:gravity="top"
-        android:text="Your Practice: 1"
-        android:textColor="#FFFFFF"
-        android:textSize="32dp"
-        app:layout_constraintEnd_toStartOf="@+id/hard"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bpm"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/easy"
-        android:layout_width="58.47dp"
-        android:layout_height="59.7dp"
-        android:layout_marginTop="62dp"
-        android:layout_marginEnd="27dp"
-        android:layout_marginBottom="0dp"
-        android:background="#2B2B2B"
-        android:src="@drawable/easy"
-        app:layout_constraintBottom_toTopOf="@+id/normal"
-        app:layout_constraintEnd_toStartOf="@+id/song1"
-        app:layout_constraintStart_toEndOf="@id/youth_troye"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/normal"
-        android:layout_width="58.47dp"
-        android:layout_height="59.7dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="27dp"
-        android:layout_marginBottom="0dp"
-        android:background="#2B2B2B"
-        android:src="@drawable/normal"
-        app:layout_constraintBottom_toTopOf="@+id/hard"
-        app:layout_constraintEnd_toStartOf="@+id/song1"
-        app:layout_constraintStart_toEndOf="@id/youth_troye"
-        app:layout_constraintTop_toBottomOf="@id/easy"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/hard"
-        android:layout_width="58.47dp"
-        android:layout_height="59.7dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="27dp"
-        android:background="#2B2B2B"
-        android:src="@drawable/hard"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/song1"
-        app:layout_constraintStart_toEndOf="@id/youth_troye"
-        app:layout_constraintTop_toBottomOf="@id/normal"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/song2"
-        android:layout_width="182dp"
-        android:layout_height="182dp"
-        android:layout_marginStart="596dp"
-        android:layout_marginTop="300dp"
-        android:background="@android:color/transparent"
-        android:scaleType="fitCenter"
-        android:src="@drawable/song_cover2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/song3"
-        android:layout_width="182dp"
-        android:layout_height="182dp"
-        android:layout_marginStart="550dp"
-        android:layout_marginTop="229dp"
-        android:background="@android:color/transparent"
-        android:src="@drawable/song_cover3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/song6"
-        android:layout_width="182dp"
-        android:layout_height="182dp"
-        android:layout_marginStart="596dp"
-        android:layout_marginTop="22dp"
-        android:background="@android:color/transparent"
-        android:src="@drawable/song_cover6"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/song5"
-        android:layout_width="182dp"
-        android:layout_height="182dp"
-        android:layout_marginStart="550dp"
-        android:layout_marginTop="52dp"
-        android:background="@android:color/transparent"
-        android:src="@drawable/song_cover5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/song1"
-        android:layout_width="182dp"
-        android:layout_height="182dp"
-        android:layout_marginStart="505dp"
-        android:layout_marginTop="100dp"
-        android:background="#2B2B2B"
-        android:src="@drawable/song_cover1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
 
     <Button
         android:id="@+id/level"
@@ -250,6 +66,19 @@
         android:layout_marginTop="20dp"
         android:background="@android:color/transparent"
         android:src="@drawable/how"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id ="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="5dp"
+        android:orientation ="vertical"
+        tools:listitem="@layout/item_recycler"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />

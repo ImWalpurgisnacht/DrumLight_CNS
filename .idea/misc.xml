@@ -12,6 +12,8 @@
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/drawable/android_play.xml" value="0.237" />
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/drawable/gradient.xml" value="0.25" />
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2075" />
+        <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/drawable/seekbar_sound.xml" value="0.36" />
+        <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/drawable/seekbar_thumb.xml" value="0.36" />
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout-land/activity_guideline.xml" value="0.30599647266313934" />
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout-land/activity_main.xml" value="0.3099647266313933" />
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout-land/activity_play.xml" value="0.3090828924162258" />
@@ -19,12 +21,15 @@
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout-land/activity_popup.xml" value="0.3099647266313933" />
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout-land/activity_repeat.xml" value="0.30599647266313934" />
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout-land/activity_setting.xml" value="0.30599647266313934" />
+        <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout-land/item_recycler.xml" value="0.30599647266313934" />
+        <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout-land/play3.xml" value="0.1" />
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout/activity_guideline.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout/activity_login.xml" value="0.19384057971014493" />
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout/activity_main.xml" value="0.365625" />
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout/activity_play.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout/activity_setting.xml" value="0.3614583333333333" />
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout/activity_start.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout/item_recycler.xml" value="0.3212962962962963" />
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/layout/loading.xml" value="0.3614583333333333" />
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/mipmap-anydpi-v26/drumlight.xml" value="0.367" />
         <entry key="..\:/Users/CNS/AndroidStudioProjects/DrumLight_ny/app/src/main/res/mipmap-anydpi-v26/drumlight_round.xml" value="0.367" />

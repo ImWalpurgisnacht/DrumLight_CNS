@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="#2B2B2B"
+    android:gravity="center"
+    tools:ignore="MissingDefaultResource">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="347dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="400dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="347dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="480dp"
+        android:text="YOUTH - Troye Sivan"
+        android:textColor="#FFFFFF"
+        android:textSize="32dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/view"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="347dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/bpm"
+        android:layout_width="347dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="top"
+        android:text="BPM: 120 bpm"
+        android:textColor="#FFFFFF"
+        android:textSize="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/practice"
+        android:layout_width="347dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="25dp"
+        android:gravity="top"
+        android:text="Your Practice: 1"
+        android:textColor="#FFFFFF"
+        android:textSize="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bpm"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/easy"
+        android:layout_width="58.47dp"
+        android:layout_height="59.7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="0dp"
+        android:background="#2B2B2B"
+        android:src="@drawable/easy"
+        app:layout_constraintStart_toEndOf="@id/title"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/normal"
+        android:layout_width="58.47dp"
+        android:layout_height="59.7dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="0dp"
+        android:background="#2B2B2B"
+        android:src="@drawable/normal"
+        app:layout_constraintStart_toEndOf="@id/title"
+        app:layout_constraintTop_toBottomOf="@id/easy"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/hard"
+        android:layout_width="58.47dp"
+        android:layout_height="59.7dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="27dp"
+        android:background="#2B2B2B"
+        android:src="@drawable/hard"
+        app:layout_constraintStart_toEndOf="@id/title"
+        app:layout_constraintTop_toBottomOf="@id/normal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/image0"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="520dp"
+        android:layout_marginTop="30dp"
+        android:background="#2B2B2B"
+        android:src="@drawable/song_cover1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -121,11 +121,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         />
 
-    <ImageButton
+    <SeekBar
         android:id="@+id/soundbar"
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:src = "@drawable/bartwo"
+        android:progress="5"
+        android:max="10"
+        android:thumb="@drawable/seekbar_thumb"
+        android:progressDrawable="@drawable/seekbar_sound"
+        android:layout_width="280dp"
+        android:layout_height="20dp"
         android:layout_marginStart="0dp"
         android:layout_marginTop ="5dp"
         />
@@ -155,11 +158,12 @@
         android:background="@android:color/transparent"
         />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/inquiry"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="30dp"
         android:src = "@drawable/inquiry"
+        android:layout_gravity="center"
         android:layout_marginStart="5dp"
         android:layout_marginTop = "20dp"
         />

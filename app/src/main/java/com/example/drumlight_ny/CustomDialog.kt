@@ -21,6 +21,7 @@ class CustomDialog(context: Context, Interface: CustomDialogInterface) : Dialog(
     private lateinit var homeworkButton: ToggleButton
     private lateinit var updateButton: ToggleButton
     private lateinit var logoutButton: ImageButton
+    private lateinit var inquiryButton: ImageButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,6 +31,7 @@ class CustomDialog(context: Context, Interface: CustomDialogInterface) : Dialog(
         homeworkButton = findViewById(R.id.onoff0)
         updateButton = findViewById(R.id.onoff1)
         logoutButton = findViewById(R.id.log_out)
+        inquiryButton = findViewById(R.id.inquiry)
 
         // 배경을 투명하게함
         window!!.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
@@ -51,11 +53,17 @@ class CustomDialog(context: Context, Interface: CustomDialogInterface) : Dialog(
             customDialogInterface.onLogoutButtonClicked()
         }
 
+        inquiryButton.setOnClickListener{
+            customDialogInterface.onInternetButtonClicked()
+        }
+
     }
 
 
     interface CustomDialogInterface {
         fun onLogoutButtonClicked()
+
+        fun onInternetButtonClicked()
     }
 
 }

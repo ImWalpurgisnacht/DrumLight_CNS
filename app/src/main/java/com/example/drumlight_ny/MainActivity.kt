@@ -1,12 +1,15 @@
 package com.example.drumlight_ny
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.drumlight_ny.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(), CustomDialog.CustomDialogInterface {
@@ -19,6 +22,12 @@ class MainActivity : AppCompatActivity(), CustomDialog.CustomDialogInterface {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val rv_adapter = findViewById<RecyclerView>(R.id.recycler)
+        val songadapter = songAdapter(itemList.itemlist)
+
+        rv_adapter.adapter = songadapter
+        rv_adapter.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
+
         binding.setting?.setOnClickListener{ //설정 클릭 이벤트
             val customDialog = CustomDialog(this,this)
             customDialog.show()
@@ -27,11 +36,6 @@ class MainActivity : AppCompatActivity(), CustomDialog.CustomDialogInterface {
 
         binding.level?.setOnClickListener{
             val intent = Intent(applicationContext, SettingActivity::class.java)
-            startActivity(intent)
-        }
-
-        binding.song1?.setOnClickListener{
-            val intent = Intent(applicationContext, GuidelineActivity::class.java)
             startActivity(intent)
         }
 
@@ -54,6 +58,11 @@ class MainActivity : AppCompatActivity(), CustomDialog.CustomDialogInterface {
 
     override fun onLogoutButtonClicked() {
         val intent = Intent(applicationContext, StartActivity::class.java)
+        startActivity(intent)
+    }
+
+    override fun onInternetButtonClicked() {
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzCpZkvMjjKbxjjMpGgPJntwhDmTxpWqMQrhjmZjqLvbtkkBbRpVwwBjVfTSgMqLRGhxdWR"))
         startActivity(intent)
     }
 }
