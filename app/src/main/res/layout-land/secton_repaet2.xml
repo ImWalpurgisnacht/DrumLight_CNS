@@ -106,7 +106,7 @@
         android:layout_width="14dp"
         android:layout_height="12dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="112dp"
+        android:layout_marginLeft="175dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="292dp"
         android:background="@drawable/point1"
@@ -117,7 +117,7 @@
         android:layout_width="14dp"
         android:layout_height="12dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="81dp"
+        android:layout_marginLeft="145dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="292dp"
         android:background="@drawable/point2"
@@ -163,9 +163,19 @@
         android:layout_marginLeft="58dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="121dp"
-        android:text="2. 설정된 구간을 더블클릭 \n    시, 반복 구간이 해제됩니\n    다.  \n3. '확인' 버튼을 클릭하여\n    플레이 화면으로 돌아갑니\n    다."
+        android:text="2. 설정된 구간을 더블 터치  \n    시, 반복 구간이 해제됩니\n    다.  \n3. '확인' 버튼을 클릭하여\n    플레이 화면으로 돌아갑니\n    다."
         android:textSize="19sp"
         android:gravity="top"
+        />
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/befor_btn"
         />
 
 

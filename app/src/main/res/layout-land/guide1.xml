@@ -106,7 +106,7 @@
         android:layout_width="14dp"
         android:layout_height="12dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="81dp"
+        android:layout_marginLeft="145dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="292dp"
         android:background="@drawable/point1"
@@ -117,7 +117,7 @@
         android:layout_width="14dp"
         android:layout_height="12dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="112dp"
+        android:layout_marginLeft="175dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="292dp"
         android:background="@drawable/point2"
@@ -166,6 +166,15 @@
         android:text="1. '도움말' 버튼을 통해 이 화\n    화면으로 이동 할  수 있습\n    니다.  \n2. 화면 속 도형을 움직이거\n    나 드럼을 움직여 도형과\n    드럼이 일치하도록 한다."
         android:textSize="19sp"
         android:gravity="top"
+        />
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="255dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/next_btn"
         />
 
 

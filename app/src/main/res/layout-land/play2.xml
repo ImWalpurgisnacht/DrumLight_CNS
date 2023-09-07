@@ -55,7 +55,7 @@
         android:layout_width="14dp"
         android:layout_height="12dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="81dp"
+        android:layout_marginLeft="115dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="292dp"
         android:background="@drawable/point2"
@@ -66,7 +66,7 @@
         android:layout_width="14dp"
         android:layout_height="12dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="112dp"
+        android:layout_marginLeft="145dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="292dp"
         android:background="@drawable/point1"
@@ -77,7 +77,7 @@
         android:layout_width="14dp"
         android:layout_height="12dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="142dp"
+        android:layout_marginLeft="175dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="292dp"
         android:background="@drawable/point2"
@@ -88,7 +88,7 @@
         android:layout_width="14dp"
         android:layout_height="12dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="172dp"
+        android:layout_marginLeft="205dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="292dp"
         android:background="@drawable/point2"
@@ -242,6 +242,26 @@
         android:text="3. 노드가 만들어지는 북(심\n    벌)에 박자에 맞춰 스틱으\n    로 타격합니다.  \n \n4. '재생'버튼을 누르면 곡이 \n    시작한다."
         android:textSize="19sp"
         android:gravity="top"
+        />
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="255dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/next_btn"
+        />
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/befor_btn"
         />
 
 </RelativeLayout>
