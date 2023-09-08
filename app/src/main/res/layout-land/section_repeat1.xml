@@ -199,17 +199,16 @@
         />
 
     <Button
-        android:id="@+id/n_btn9"
-        android:layout_width="25dp"
-        android:layout_height="20dp"
+        android:id="@+id/n_btn"
+        android:layout_width="21dp"
+        android:layout_height="12dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="255dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="255dp"
         android:layout_marginTop="290dp"
         android:background="@drawable/next_btn"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

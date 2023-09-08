@@ -288,7 +288,7 @@
         />
 
     <Button
-        android:id="@+id/n_btn7"
+        android:id="@+id/n_btn"
         android:layout_width="25dp"
         android:layout_height="20dp"
         android:layout_alignParentLeft="true"
@@ -301,16 +301,15 @@
         />
 
     <Button
-        android:id="@+id/b_btn6"
-        android:layout_width="25dp"
-        android:layout_height="20dp"
+        android:id="@+id/b_btn"
+        android:layout_width="13dp"
+        android:layout_height="16dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="65dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="65dp"
         android:layout_marginTop="290dp"
         android:background="@drawable/befor_btn"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

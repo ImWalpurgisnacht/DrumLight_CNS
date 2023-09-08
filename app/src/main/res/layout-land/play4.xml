@@ -288,12 +288,12 @@
         />
 
     <Button
-        android:id="@+id/b_btn7"
-        android:layout_width="25dp"
-        android:layout_height="20dp"
+        android:id="@+id/b_btn"
+        android:layout_width="19dp"
+        android:layout_height="6dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="65dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="65dp"
         android:layout_marginTop="290dp"
         android:background="@drawable/befor_btn"
         app:layout_constraintStart_toStartOf="parent"

@@ -199,7 +199,7 @@
         />
 
     <Button
-        android:id="@+id/b_btn8"
+        android:id="@+id/b_btn"
         android:layout_width="25dp"
         android:layout_height="20dp"
         android:layout_alignParentLeft="true"

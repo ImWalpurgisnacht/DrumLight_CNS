@@ -288,7 +288,7 @@
         />
 
     <Button
-        android:id="@+id/n_btn6"
+        android:id="@+id/n_btn"
         android:layout_width="25dp"
         android:layout_height="20dp"
         android:layout_alignParentLeft="true"
@@ -301,7 +301,7 @@
         />
 
     <Button
-        android:id="@+id/b_btn5"
+        android:id="@+id/b_btn"
         android:layout_width="25dp"
         android:layout_height="20dp"
         android:layout_alignParentLeft="true"
