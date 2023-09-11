@@ -40,6 +40,11 @@ class MainActivity : AppCompatActivity(), CustomDialog.CustomDialogInterface {
             startActivity(intent)
         }
 
+        binding.how?.setOnClickListener{
+            val intent = Intent(applicationContext, GuideActivity::class.java)
+            startActivity(intent)
+        }
+
         val uiOptions = window.decorView.systemUiVisibility
         var newUiOptions: Int = uiOptions
         val isImmersiveModeEnabled = uiOptions or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY == uiOptions

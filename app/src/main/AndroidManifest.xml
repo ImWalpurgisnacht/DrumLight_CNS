@@ -33,6 +33,10 @@
             android:screenOrientation="landscape"/>
         <activity android:name=".RepeatActivity"
             android:screenOrientation="landscape"/>
+        <activity android:name=".GuideActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Guide2Activity"
+            android:screenOrientation="landscape"/>
     </application>
 
 </manifest>
