@@ -1,11 +1,13 @@
 package com.example.drumlight_ny
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.MediaController
+import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
-import com.example.drumlight_ny.databinding.ActivityMainBinding
 import com.example.drumlight_ny.databinding.ActivityPlayBinding
 
 class PlayActivity : AppCompatActivity() {
@@ -18,15 +20,20 @@ class PlayActivity : AppCompatActivity() {
         binding = ActivityPlayBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val videoView = findViewById<VideoView>(R.id.videoView)
+
+        videoView.setMediaController(MediaController(this))
+        videoView.setVideoURI(Uri.parse("android.resource://"+packageName + "/"+R.raw.music_1))
+
         binding.next.setOnClickListener{
             val intent = Intent(applicationContext, MainActivity::class.java)
             startActivity(intent)
         }
 
-        binding.partbutton.setOnClickListener{
+        /*binding.partbutton.setOnClickListener{
             val intent = Intent(applicationContext, RepeatActivity::class.java)
             startActivity(intent)
-        }
+        }*/
 
         val uiOptions = window.decorView.systemUiVisibility
         var newUiOptions: Int = uiOptions
