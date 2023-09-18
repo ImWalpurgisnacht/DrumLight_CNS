@@ -124,7 +124,8 @@
         android:layout_marginStart="520dp"
         android:layout_marginTop="30dp"
         android:background="#2B2B2B"
-        android:src="@drawable/song_cover1"
+        android:src="@drawable/song_cover"
+        android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />

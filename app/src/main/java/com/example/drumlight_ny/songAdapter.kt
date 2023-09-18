@@ -17,7 +17,6 @@ class songAdapter(val itemList : List<Data>) :
                 itemBinding.title.text=data.title
                 itemBinding.bpm.text=data.bpm
                 itemBinding.practice.text=data.practice
-
             }
     }
 

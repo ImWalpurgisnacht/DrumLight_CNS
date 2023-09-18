@@ -9,7 +9,7 @@
 
     <VideoView
         android:layout_width="match_parent"
-        android:layout_height="690dp"
+        android:layout_height="match_parent"
         android:id="@+id/videoView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -17,13 +17,45 @@
         app:layout_constraintTop_toTopOf="parent"
         />
 
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:src="@drawable/music_play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/playbutton"
+        android:layout_width="97dp"
+        android:layout_height="32dp"
+        android:src = "@drawable/play"
+        android:layout_marginStart="725dp"
+        android:layout_marginTop = "109dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/stopbutton"
+        android:layout_width="97dp"
+        android:layout_height="32dp"
+        android:src = "@drawable/stop"
+        android:layout_marginStart="725dp"
+        android:layout_marginTop = "143dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/next"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="690dp"
-        android:layout_marginTop = "295dp"
+        android:layout_width="140dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="680dp"
+        android:layout_marginTop = "260dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:background="@drawable/level"
@@ -31,5 +63,26 @@
         android:textSize = "55dp"
         tools:ignore="MissingConstraints" />
 
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="730dp"
+        android:layout_marginTop = "215dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#00ff0000"
+        />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="790dp"
+        android:layout_marginTop = "215dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#00ff0000"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
