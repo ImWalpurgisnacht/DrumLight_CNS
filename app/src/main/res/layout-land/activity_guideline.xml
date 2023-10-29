@@ -7,32 +7,113 @@
     android:background="#2B2B2B"
     tools:ignore="MissingDefaultResource">
 
-    <ImageView
-        android:id="@+id/pic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/guideline_pic"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/drum_1st"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/circle_button"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop ="110dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        />
+        tools:ignore="MissingConstraints"/>
 
-    <View
-        android:layout_width="760dp"
-        android:layout_height="90dp"
-        android:background="#2B2B2B"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/drum_2st"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/circle_button"
+        android:layout_marginStart="502dp"
+        android:layout_marginTop ="110dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        />
+        tools:ignore="MissingConstraints"/>
 
-    <View
-        android:layout_width="180dp"
-        android:layout_height="400dp"
-        android:layout_marginStart="680dp"
-        android:layout_marginTop="80dp"
-        android:background="#2B2B2B"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/drum_3st"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:background="@drawable/circle_button"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop ="195dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        />
+        tools:ignore="MissingConstraints"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/drum_4st"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:background="@drawable/circle_button"
+        android:layout_marginStart="348dp"
+        android:layout_marginTop ="195dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/drum_5st"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:background="@drawable/circle_button"
+        android:layout_marginStart="460dp"
+        android:layout_marginTop ="195dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/drum_6st"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/circle_button"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop ="260dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/drum_7st"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:background="@drawable/circle_button"
+        android:layout_marginStart="348dp"
+        android:layout_marginTop ="280dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/drum_8st"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/circle_button"
+        android:layout_marginStart="512dp"
+        android:layout_marginTop ="260dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/drum_9st"
+        android:layout_width="43dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop ="290dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/drum_10st"
+        android:layout_width="43dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="440dp"
+        android:layout_marginTop ="290dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"/>
 
     <TextView
         android:id="@+id/text"

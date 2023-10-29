@@ -31,7 +31,7 @@ class PlayActivity : AppCompatActivity() {
 
         videoView = findViewById(R.id.videoView)
         videoView?.setMediaController(MediaController(this))
-        videoView?.setVideoURI(Uri.parse("android.resource://"+packageName + "/"+R.raw.music_1))
+        videoView?.setVideoURI(Uri.parse("android.resource://"+packageName + "/"+R.raw.easy))
 
         binding.next.setOnClickListener{
             val intent = Intent(applicationContext, MainActivity::class.java)
@@ -61,7 +61,6 @@ class PlayActivity : AppCompatActivity() {
                 mediaPlayer.playbackParams = mediaPlayer.playbackParams.apply {
                     speed -= 0.1f
                 }
-                videoView?.start()
             }
         }
 
